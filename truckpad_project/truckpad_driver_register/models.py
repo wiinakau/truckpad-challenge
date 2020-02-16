@@ -32,7 +32,7 @@ class Driver(models.Model):
     license_type = models.ForeignKey(DriverLicense, on_delete=models.CASCADE)
     truck_type = models.ForeignKey(TruckType, on_delete=models.CASCADE)
     has_vehicle = models.BooleanField(default=False)
-    has_shipment = models.BooleanField(default=False)
+    has_cargo = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

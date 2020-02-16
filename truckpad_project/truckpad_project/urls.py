@@ -16,11 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from truckpad_driver_register.views import DriverViewSet
-
+from truckpad_driver_register.views import *
 
 router = DefaultRouter()
+router.register(r'truck_types', TruckTypeViewSet)
 router.register(r'drivers', DriverViewSet)
+router.register(r'drivers_with_own_vehicle', DriverWithOwnVehicle)
+router.register(r'drivers_without_cargo', DriverWithoutCargo)
+router.register(r'trips', TripViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
