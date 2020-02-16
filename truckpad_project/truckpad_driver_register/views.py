@@ -25,20 +25,23 @@ class DriverWithoutCargo(ReadOnlyModelViewSet):
 
 
 class DriverHasCargoDay(ReadOnlyModelViewSet):
+    day = int(date.today().strftime('%d'))
     queryset = Driver.objects.filter(has_cargo=True,
-                                     created_at__day=int(date.today().strftime('%d')))
+                                     created_at__day=day)
     serializer_class = DriverSerializer
 
 
-class DriverHasCargoMonth(ReadOnlyModelViewSet):
+class DriverHasCargoWeek(ReadOnlyModelViewSet):
+    current_week = int(date.today().isocalendar()[1])
     queryset = Driver.objects.filter(has_cargo=True,
-                                     created_at__month=(date.today().strftime('%-m')))
+                                     created_at__week=current_week)
     serializer_class = DriverSerializer
 
 
 class DriverHasCargoYear(ReadOnlyModelViewSet):
+    year = int(date.today().strftime('%Y'))
     queryset = Driver.objects.filter(has_cargo=True,
-                                     created_at__year=(date.today().strftime('%Y')))
+                                     created_at__year=year)
     serializer_class = DriverSerializer
 
 
