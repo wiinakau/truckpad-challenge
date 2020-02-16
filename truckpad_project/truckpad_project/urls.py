@@ -25,7 +25,7 @@ router.register(r'drivers_with_own_vehicle', DriverWithOwnVehicle)
 router.register(r'drivers_without_cargo', DriverWithoutCargo)
 router.register(r'driver_has_cargo_day', DriverHasCargoDay)
 router.register(r'driver_has_cargo_week', DriverHasCargoWeek)
-router.register(r'driver_has_cargo_year', DriverHasCargoYear)
+router.register(r'driver_has_cargo_month', DriverHasCargoMonth)
 router.register(r'trips', TripViewSet)
 
 urlpatterns = [
