@@ -1,6 +1,7 @@
 *.log
 *.pot
 *.pyc
+idea
 __pycache__/
 
 # Django stuff:
