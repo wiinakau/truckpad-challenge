@@ -1,0 +1,821 @@
+[
+    {
+        "model": "truckpad_driver_register.gender",
+        "pk": 1,
+        "fields": {
+            "gender": "Masculino"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.gender",
+        "pk": 2,
+        "fields": {
+            "gender": "Feminino"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.gender",
+        "pk": 3,
+        "fields": {
+            "gender": "Outros"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driverlicense",
+        "pk": 1,
+        "fields": {
+            "driver_license": "A"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driverlicense",
+        "pk": 2,
+        "fields": {
+            "driver_license": "B"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driverlicense",
+        "pk": 3,
+        "fields": {
+            "driver_license": "C"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driverlicense",
+        "pk": 4,
+        "fields": {
+            "driver_license": "D"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driverlicense",
+        "pk": 5,
+        "fields": {
+            "driver_license": "E"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trucktype",
+        "pk": 1,
+        "fields": {
+            "type_name": "Caminh\u00e3o 3/4",
+            "created_at": "2020-02-17T02:50:17.012Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trucktype",
+        "pk": 2,
+        "fields": {
+            "type_name": "Caminh\u00e3o Toco",
+            "created_at": "2020-02-17T02:50:21.708Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trucktype",
+        "pk": 3,
+        "fields": {
+            "type_name": "Caminh\u00e3o T ruck",
+            "created_at": "2020-02-17T02:50:26.371Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trucktype",
+        "pk": 4,
+        "fields": {
+            "type_name": "Carreta Simples",
+            "created_at": "2020-02-17T02:50:30.844Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trucktype",
+        "pk": 5,
+        "fields": {
+            "type_name": "Carreta Eixo Extendido",
+            "created_at": "2020-02-17T02:50:35.973Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 1,
+        "fields": {
+            "name": "Willian Nakau",
+            "age": "33",
+            "gender": 1,
+            "license_type": 4,
+            "truck_type": 3,
+            "has_vehicle": true,
+            "has_cargo": true,
+            "created_at": "2020-02-17T02:55:29.238Z",
+            "updated_at": "2020-02-17T02:55:29.238Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 2,
+        "fields": {
+            "name": "Fernando Santana de Oliveira",
+            "age": "40",
+            "gender": 1,
+            "license_type": 5,
+            "truck_type": 5,
+            "has_vehicle": true,
+            "has_cargo": false,
+            "created_at": "2020-02-17T02:55:41.737Z",
+            "updated_at": "2020-02-17T02:55:41.737Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 3,
+        "fields": {
+            "name": "Fernando Fernandes",
+            "age": "55",
+            "gender": 1,
+            "license_type": 3,
+            "truck_type": 2,
+            "has_vehicle": false,
+            "has_cargo": true,
+            "created_at": "2020-02-17T02:56:07.047Z",
+            "updated_at": "2020-02-17T02:56:07.047Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 4,
+        "fields": {
+            "name": "Mariana Lima",
+            "age": "34",
+            "gender": 2,
+            "license_type": 5,
+            "truck_type": 1,
+            "has_vehicle": true,
+            "has_cargo": false,
+            "created_at": "2020-02-17T02:56:21.336Z",
+            "updated_at": "2020-02-17T02:56:21.336Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 5,
+        "fields": {
+            "name": "Marluce Freitas",
+            "age": "47",
+            "gender": 2,
+            "license_type": 3,
+            "truck_type": 4,
+            "has_vehicle": true,
+            "has_cargo": true,
+            "created_at": "2020-02-17T02:56:43.698Z",
+            "updated_at": "2020-02-17T02:56:43.698Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 6,
+        "fields": {
+            "name": "Jo\u00e3o Dias",
+            "age": "58",
+            "gender": 1,
+            "license_type": 5,
+            "truck_type": 5,
+            "has_vehicle": false,
+            "has_cargo": true,
+            "created_at": "2020-02-17T02:57:12.866Z",
+            "updated_at": "2020-02-17T02:57:12.866Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 7,
+        "fields": {
+            "name": "Moises da SIlva",
+            "age": "64",
+            "gender": 1,
+            "license_type": 5,
+            "truck_type": 1,
+            "has_vehicle": false,
+            "has_cargo": false,
+            "created_at": "2020-02-17T02:57:30.986Z",
+            "updated_at": "2020-02-17T02:57:30.986Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 8,
+        "fields": {
+            "name": "Luis Ant\u00f4nio",
+            "age": "24",
+            "gender": 1,
+            "license_type": 4,
+            "truck_type": 1,
+            "has_vehicle": false,
+            "has_cargo": false,
+            "created_at": "2020-02-17T02:57:51.675Z",
+            "updated_at": "2020-02-17T02:57:51.675Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.driver",
+        "pk": 9,
+        "fields": {
+            "name": "Julio",
+            "age": "37",
+            "gender": 1,
+            "license_type": 5,
+            "truck_type": 2,
+            "has_vehicle": true,
+            "has_cargo": false,
+            "created_at": "2020-02-17T02:58:05.818Z",
+            "updated_at": "2020-02-17T02:58:05.818Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 1,
+        "fields": {
+            "trip_date": "2020-02-21T02:54:58Z",
+            "driver": 1,
+            "origin_name": "S\u00e3o Paulo",
+            "origin_latitude": "-23.5475",
+            "origin_longitude": "-46.63611",
+            "destiny_name": "Belo Horizonte",
+            "destiny_latitude": "-19.8157",
+            "destiny_longitude": "-43.9542 19",
+            "created_at": "2020-02-17T03:00:07.041Z",
+            "updated_at": "2020-02-17T03:00:07.041Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 2,
+        "fields": {
+            "trip_date": "2020-02-10T15:00:00Z",
+            "driver": 2,
+            "origin_name": "S\u00e3o Paulo",
+            "origin_latitude": "-23.5475",
+            "origin_longitude": "-46.63611",
+            "destiny_name": "Brasilia",
+            "destiny_latitude": "-15.7934036",
+            "destiny_longitude": "-47.8823172",
+            "created_at": "2020-02-17T03:00:43.355Z",
+            "updated_at": "2020-02-17T03:00:43.355Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 3,
+        "fields": {
+            "trip_date": "2020-02-17T02:54:58Z",
+            "driver": 3,
+            "origin_name": "S\u00e3o Paulo",
+            "origin_latitude": "-23.5475",
+            "origin_longitude": "-46.63611",
+            "destiny_name": "Porto Seguro",
+            "destiny_latitude": "-16.40474135",
+            "destiny_longitude": "-39.41720537",
+            "created_at": "2020-02-17T03:01:03.273Z",
+            "updated_at": "2020-02-17T03:01:03.274Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 4,
+        "fields": {
+            "trip_date": "2020-02-19T21:00:00Z",
+            "driver": 4,
+            "origin_name": "Belo Horizonte",
+            "origin_latitude": "-19.8157",
+            "origin_longitude": "-43.9542 19",
+            "destiny_name": "S\u00e3o Paulo",
+            "destiny_latitude": "-23.5475",
+            "destiny_longitude": "-46.63611",
+            "created_at": "2020-02-17T03:01:49.061Z",
+            "updated_at": "2020-02-17T03:01:49.061Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 5,
+        "fields": {
+            "trip_date": "2020-02-21T03:00:00Z",
+            "driver": 5,
+            "origin_name": "Belo Horizonte",
+            "origin_latitude": "-19.8157",
+            "origin_longitude": "-43.9542 19",
+            "destiny_name": "Brasilia",
+            "destiny_latitude": "-15.7934036",
+            "destiny_longitude": "-47.8823172",
+            "created_at": "2020-02-17T03:02:24.739Z",
+            "updated_at": "2020-02-17T03:02:24.739Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 6,
+        "fields": {
+            "trip_date": "2020-03-02T15:00:00Z",
+            "driver": 6,
+            "origin_name": "Belo Horizonte",
+            "origin_latitude": "-19.8157",
+            "origin_longitude": "-43.9542 19",
+            "destiny_name": "Porto Seguro",
+            "destiny_latitude": "-16.40474135",
+            "destiny_longitude": "-39.41720537",
+            "created_at": "2020-02-17T03:02:58.389Z",
+            "updated_at": "2020-02-17T03:02:58.389Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 7,
+        "fields": {
+            "trip_date": "2020-01-29T09:00:00Z",
+            "driver": 7,
+            "origin_name": "Brasilia",
+            "origin_latitude": "-15.7934036",
+            "origin_longitude": "-47.8823172",
+            "destiny_name": "Belo Horizonte",
+            "destiny_latitude": "-19.8157",
+            "destiny_longitude": "-43.9542 19",
+            "created_at": "2020-02-17T03:03:43.173Z",
+            "updated_at": "2020-02-17T03:03:43.173Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 8,
+        "fields": {
+            "trip_date": "2020-04-08T02:54:58Z",
+            "driver": 8,
+            "origin_name": "Brasilia",
+            "origin_latitude": "-15.7934036",
+            "origin_longitude": "-47.8823172",
+            "destiny_name": "Porto Seguro",
+            "destiny_latitude": "-16.40474135",
+            "destiny_longitude": "-39.41720537",
+            "created_at": "2020-02-17T03:04:20.059Z",
+            "updated_at": "2020-02-17T03:04:20.059Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 9,
+        "fields": {
+            "trip_date": "2020-02-26T21:00:00Z",
+            "driver": 9,
+            "origin_name": "Brasilia",
+            "origin_latitude": "-15.7934036",
+            "origin_longitude": "-47.8823172",
+            "destiny_name": "S\u00e3o Paulo",
+            "destiny_latitude": "-23.5475",
+            "destiny_longitude": "-46.63611",
+            "created_at": "2020-02-17T03:05:19.023Z",
+            "updated_at": "2020-02-17T03:05:19.023Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 10,
+        "fields": {
+            "trip_date": "2020-04-07T02:54:58Z",
+            "driver": 1,
+            "origin_name": "Porto Seguro",
+            "origin_latitude": "-16.40474135",
+            "origin_longitude": "-39.41720537",
+            "destiny_name": "Belo Horizonte",
+            "destiny_latitude": "-19.8157",
+            "destiny_longitude": "-43.9542 19",
+            "created_at": "2020-02-17T03:06:11.992Z",
+            "updated_at": "2020-02-17T03:06:11.992Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 11,
+        "fields": {
+            "trip_date": "2020-03-01T09:00:00Z",
+            "driver": 2,
+            "origin_name": "Porto Seguro",
+            "origin_latitude": "-16.40474135",
+            "origin_longitude": "-39.41720537",
+            "destiny_name": "Brasilia",
+            "destiny_latitude": "-15.7934036",
+            "destiny_longitude": "-47.8823172",
+            "created_at": "2020-02-17T03:06:48.796Z",
+            "updated_at": "2020-02-17T03:07:13.280Z"
+        }
+    },
+    {
+        "model": "truckpad_driver_register.trip",
+        "pk": 12,
+        "fields": {
+            "trip_date": "2020-02-13T02:54:58Z",
+            "driver": 5,
+            "origin_name": "Porto Seguro",
+            "origin_latitude": "-16.40474135",
+            "origin_longitude": "-39.41720537",
+            "destiny_name": "S\u00e3o Paulo",
+            "destiny_latitude": "-23.5475",
+            "destiny_longitude": "-43.9542 19",
+            "created_at": "2020-02-17T03:07:54.315Z",
+            "updated_at": "2020-02-17T03:07:54.315Z"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add driver",
+            "content_type": 7,
+            "codename": "add_driver"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change driver",
+            "content_type": 7,
+            "codename": "change_driver"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete driver",
+            "content_type": 7,
+            "codename": "delete_driver"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view driver",
+            "content_type": 7,
+            "codename": "view_driver"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add driver license",
+            "content_type": 8,
+            "codename": "add_driverlicense"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change driver license",
+            "content_type": 8,
+            "codename": "change_driverlicense"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete driver license",
+            "content_type": 8,
+            "codename": "delete_driverlicense"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view driver license",
+            "content_type": 8,
+            "codename": "view_driverlicense"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add gender",
+            "content_type": 9,
+            "codename": "add_gender"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change gender",
+            "content_type": 9,
+            "codename": "change_gender"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete gender",
+            "content_type": 9,
+            "codename": "delete_gender"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view gender",
+            "content_type": 9,
+            "codename": "view_gender"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add truck type",
+            "content_type": 10,
+            "codename": "add_trucktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change truck type",
+            "content_type": 10,
+            "codename": "change_trucktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete truck type",
+            "content_type": 10,
+            "codename": "delete_trucktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view truck type",
+            "content_type": 10,
+            "codename": "view_trucktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add trip",
+            "content_type": 11,
+            "codename": "add_trip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change trip",
+            "content_type": 11,
+            "codename": "change_trip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete trip",
+            "content_type": 11,
+            "codename": "delete_trip"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view trip",
+            "content_type": 11,
+            "codename": "view_trip"
+        }
+    }
+]

@@ -19,14 +19,14 @@ from rest_framework.routers import DefaultRouter
 from truckpad_driver_register.views import *
 
 router = DefaultRouter()
-router.register(r'truck_types', TruckTypeViewSet)
-router.register(r'drivers', DriverViewSet)
-router.register(r'drivers_with_own_vehicle', DriverWithOwnVehicle)
-router.register(r'drivers_without_cargo', DriverWithoutCargo)
-router.register(r'driver_has_cargo_day', DriverHasCargoDay)
-router.register(r'driver_has_cargo_week', DriverHasCargoWeek)
-router.register(r'driver_has_cargo_month', DriverHasCargoMonth)
-router.register(r'trips', TripViewSet)
+router.register(r'truck_types', TruckTypeViewSet, 'truck_types')
+router.register(r'drivers', DriverViewSet, 'drivers')
+router.register(r'drivers_with_own_vehicle', DriverWithOwnVehicle, 'drivers_with_own_vehicle')
+router.register(r'drivers_without_cargo', DriverWithoutCargo, 'drivers_without_cargo')
+router.register(r'driver_has_cargo_day', DriverHasCargoDay, 'driver_has_cargo_day')
+router.register(r'driver_has_cargo_week', DriverHasCargoWeek, 'driver_has_cargo_week')
+router.register(r'driver_has_cargo_month', DriverHasCargoMonth, 'driver_has_cargo_month')
+router.register(r'trips', TripViewSet, 'trips')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
