@@ -4,7 +4,7 @@ from .serializers import TruckTypeSerializer, DriverSerializer, TripSerializer
 from datetime import date
 
 
-class TruckTypeViewSet(ModelViewSet):
+class TruckTypeViewSet(ReadOnlyModelViewSet):
     queryset = TruckType.objects.all()
     serializer_class = TruckTypeSerializer
 
